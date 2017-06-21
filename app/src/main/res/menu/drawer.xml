@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_home"
+            android:icon="@drawable/drawer_icon_mes"
+            android:title="文件上传" />
+        <item
+            android:id="@+id/navigation_cal"
+            android:icon="@drawable/drawer_icon_cal"
+            android:title="RxJava" />
+        <item
+            android:id="@+id/navigation_about"
+            android:icon="@drawable/drawer_icon_home"
+            android:title="Retrofit" />
+        <item
+            android:id="@+id/navigation_setting"
+            android:icon="@drawable/drawer_icon_setting"
+            android:title="百度定位" />
+        <item
+            android:id="@+id/navigation_greendao"
+            android:icon="@drawable/drawer_icon_setting"
+            android:title="GreenDao" />
+        <item
+            android:id="@+id/navigation_recycleview"
+            android:icon="@drawable/drawer_icon_setting"
+            android:title="RecycleView" />
+        <item
+            android:id="@+id/navigation_permission"
+            android:icon="@drawable/drawer_icon_setting"
+            android:title="权限/动画" />
+    </group>
+</menu>
